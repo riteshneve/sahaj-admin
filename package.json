@@ -1,0 +1,95 @@
+{
+    "name": "sahaj-admin",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@ant-design/icons": "4.0.0-rc.0",
+        "@types/jest": "24.0.15",
+        "@types/react": "^16.9.23",
+        "@types/react-dom": "16.8.4",
+        "@types/react-highlight-words": "^0.16.0",
+        "antd": "^4.1.2",
+        "connected-react-router": "6.4.0",
+        "customize-cra": "0.6.0",
+        "immutable": "^4.0.0-rc.12",
+        "less": "^3.11.1",
+        "lodash": "4.17.14",
+        "moment": "^2.24.0",
+        "query-string": "6.8.1",
+        "react": "^16.13.0",
+        "react-dom": "16.9.0",
+        "react-google-login": "^5.1.1",
+        "react-highlight-words": "^0.16.0",
+        "react-redux": "7.1.0-rc.1",
+        "react-router": "5.1.2",
+        "react-router-dom": "5.1.2",
+        "react-scripts": "^3.3.0",
+        "redux": "4.0.1",
+        "redux-immutable": "4.0.0",
+        "redux-observable": "1.1.0",
+        "reselect": "4.0.0",
+        "rxjs": "6.5.2",
+        "styled-components": "4.2.1",
+        "typescript": "3.5.3"
+    },
+    "devDependencies": {
+        "@babel/plugin-proposal-class-properties": "^7.5.5",
+        "@babel/plugin-transform-modules-commonjs": "^7.5.0",
+        "@testing-library/jest-dom": "^4.0.0",
+        "@testing-library/react": "8.0.1",
+        "@types/lodash": "^4.14.133",
+        "@types/node": "^12.12.27",
+        "@types/react-redux": "^7.1.1",
+        "@types/react-router-dom": "^5.1.3",
+        "@types/styled-components": "4.1.16",
+        "@typescript-eslint/eslint-plugin": "^2.1.0",
+        "@typescript-eslint/parser": "^2.1.0",
+        "babel-plugin-dynamic-import-node": "^2.3.0",
+        "babel-plugin-import": "^1.12.1",
+        "env-cmd": "9.0.2",
+        "eslint-config-prettier": "^6.0.0",
+        "eslint-config-react": "^1.1.7",
+        "eslint-plugin-prettier": "^3.1.0",
+        "eslint-plugin-react": "^7.14.3",
+        "eslint-plugin-react-hooks": "^1.6.0",
+        "husky": "^2.3.0",
+        "less-loader": "^5.0.0",
+        "prettier": "^1.18.2",
+        "react-app-rewired": "^2.1.3",
+        "react-hooks-testing-library": "^0.5.1",
+        "react-test-renderer": "^16.8.6",
+        "source-map-explorer": "^2.0.1"
+    },
+    "scripts": {
+        "start": "env-cmd -e development react-app-rewired start",
+        "build": "env-cmd -e production react-app-rewired build",
+        "test": "react-scripts test",
+        "lint": "eslint './src/**/*.{ts,tsx}'",
+        "lint:fix": "eslint './src/**/*.{ts,tsx}' --fix",
+        "analyze": "source-map-explorer 'build/static/js/*.js'",
+        "eslint-check": "eslint --print-config src/index.tsx | eslint-config-prettier-check"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "sideEffects": [
+        "./src/setupTests"
+    ],
+    "husky": {
+        "hooks": {
+            "pre-commit": "yarn run lint:fix"
+        }
+    }
+}

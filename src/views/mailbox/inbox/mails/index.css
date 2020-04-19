@@ -1,0 +1,40 @@
+thead[class*="ant-table-thead"] th {
+    display: none;
+}
+
+.mails-cont {
+    flex: 1;
+    margin: 10px;
+    border: 1px solid lightgrey;
+    background-color: white;
+}
+
+.inbox-control-panel {
+    padding: 15px;
+}
+
+.inbox-table-cont {
+    border-top: 1px solid lightgrey;
+}
+
+.inbox-mails-header {
+    display: flex;
+}
+
+.inbox-mails-tools {
+    display: flex;
+    margin-top: 5px;
+}
+
+.column-right-align {
+    text-align: right !important;
+}
+
+.table-row-light {
+    cursor: pointer;
+    background-color: #ffffff;
+}
+.table-row-dark {
+    cursor: pointer;
+    background-color: #f5f5f5;
+}

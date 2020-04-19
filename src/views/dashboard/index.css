@@ -1,0 +1,44 @@
+.ant-layout .ant-layout-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.signout-btn:hover {
+    background-color: #eaeaea;
+    cursor: pointer;
+}
+
+.signout-popup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.user-detail-avatar {
+    background-color: #03a465;
+}
+
+.user-detail-avatar:hover {
+    cursor: pointer;
+}
+
+.header-avatar {
+    height: 64px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 16px;
+    color: white
+}
+
+.header-avatar-exp {
+    padding: 20px;
+    color: white
+}
+
+.avatar-name {}
+
+.avatar-details {
+    font-size: 12px;
+    color: lightgrey;
+}

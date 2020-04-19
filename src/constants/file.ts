@@ -1,0 +1,10 @@
+export const PDF = "application/pdf";
+export const JSON = "application/json";
+export const CSV = "text/csv";
+export const XML = "application/xml";
+export const TEXT = "text/plain";
+export const XLS = "application/vnd.ms-excel";
+export const XLSX ="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
+export const PNG = "image/png";
+export const JPEG = "image/jpeg";
+export const JPG = "image/jpg";

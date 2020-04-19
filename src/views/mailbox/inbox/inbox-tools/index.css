@@ -1,0 +1,35 @@
+.inbox-tool {
+    width: 270px;
+    margin: 20px;
+}
+
+.inbox-tool-group {
+    padding-top: 20px;
+}
+
+.inbox-tool-group-header {
+    font-weight: bold;
+}
+
+.inbox-tool-group-list {
+    padding-top: 5px;
+}
+
+.inbox-tool-group-item {
+    cursor: pointer;
+}
+
+.inbox-tool-group-item-text {
+    padding-left: 10px;
+}
+
+.inbox-tool-group-item-sel {
+    font-weight: bold;
+}
+
+.custom-circle {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    display: inline-block;
+}
